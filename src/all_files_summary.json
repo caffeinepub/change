@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor implementing a task-reward system with user registration (10 coin signup bonus), task creation/completion, balance tracking, and transaction history using Map-based storage.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features documented.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of 11 frontend files covering React components, pages, hooks, and styling for the earning app interface.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables for light/dark themes using OKLCH color space, defining colors for UI elements, charts, and sidebar components.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Earning App.",
+  "frontend/src/App.tsx": "Root React component with TanStack Router setup, Internet Identity authentication flow, login prompt screen, and route definitions for dashboard, tasks, and history pages.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component with sticky header, responsive navigation (desktop/mobile), sign-out button, and footer with caffeine.ai attribution.",
+  "frontend/src/components/ProfileCard.tsx": "Card component displaying user profile with total earnings badge, formatted principal ID, and member-since date with gradient styling.",
+  "frontend/src/components/TaskCard.tsx": "Task display card with description, reward badge, completion status indicator, and action button to complete tasks with loading state.",
+  "frontend/src/components/TransactionItem.tsx": "Transaction list item card showing task completion details with formatted timestamp, task ID, and earned amount badge.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and manages an actor instance for backend communication, using Internet Identity for authentication and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides Internet Identity authentication context and hooks for login/logout functionality, managing identity state and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching user profile and transactions, and a mutation hook for completing tasks with automatic query invalidation on success.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light and dark themes, defining color schemes using OKLCH color space for UI components.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the root App component.",
+  "frontend/src/pages/Dashboard.tsx": "Dashboard page displaying user profile, stats cards (earnings, tasks, status), hero banner, and quick action buttons with 5-second polling for profile updates.",
+  "frontend/src/pages/Tasks.tsx": "Tasks page showing a placeholder message indicating that tasks are being set up and will appear once added by administrators.",
+  "frontend/src/pages/TransactionHistory.tsx": "Transaction history page that displays a list of user transactions in reverse chronological order, with loading states and empty state handling.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration defining custom theme extensions including OKLCH color system, container settings, border radius variables, custom shadows, and animation keyframes.",
+  "project_state.json": "Project state tracking file for an Internet Computer earning app with Motoko backend and React frontend. Contains 8 completed features (authentication, dashboard, tasks, transactions, game components) and 2 pending feature requests for user profile system and game functionality."
+}

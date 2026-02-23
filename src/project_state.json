@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Earning app on Internet Computer with Motoko backend, React frontend, Internet Identity authentication, and game functionality",
+  "architectural_notes": [
+    "Platform: Internet Computer blockchain",
+    "Backend: Motoko",
+    "Frontend: React",
+    "Authentication: Internet Identity"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-set-up-internet-identity-authentication-system-allowing-users-to-sign-in-and-sign-out",
+      "title": "Set up Internet Identity authentication system allowing users to sign in and sign out",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-frontend-dashboard-displaying-user-s-current-earnings-balance-and-profile-information",
+      "title": "Build frontend dashboard displaying user's current earnings balance and profile information",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-task-completion-system-where-users-can-view-available-tasks-and-mark-them-as-complete-to-earn-rewards",
+      "title": "Implement a task completion system where users can view available tasks and mark them as complete to earn rewards",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-transaction-history-feature-showing-all-earning-activities-including-task-completions-and-amounts-earned",
+      "title": "Create a transaction history feature showing all earning activities including task completions and amounts earned",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-modern-engaging-visual-theme-with-vibrant-colors-and-clear-typography-that-appeals-to-users-seeking-earning-opportunities-avoiding-blue-and-purple-color-schemes",
+      "title": "Design a modern, engaging visual theme with vibrant colors and clear typography that appeals to users seeking earning opportunities, avoiding blue and purple color schemes",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-simple-interactive-game-component-in-the-frontend-that-users-can-play-to-earn-rewards",
+      "title": "Create a simple interactive game component in the frontend that users can play to earn rewards",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-game-page-route-in-the-frontend-navigation-and-integrate-it-with-the-existing-layout-component",
+      "title": "Add a Game page route in the frontend navigation and integrate it with the existing Layout component",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-react-query-hooks-for-game-related-operations-including-game-state-fetching-and-game-completion-mutations",
+      "title": "Create React Query hooks for game-related operations including game state fetching and game completion mutations",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Set up Internet Computer project with Motoko backend and React frontend",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Implement Internet Identity authentication",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Create basic earning app structure",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create user profile system in backend to store user data including principal ID, earnings balance, and join date",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add game functionality to the earning app",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add backend endpoint to record game completions and award rewards to users when they successfully complete a game session",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add first-time login bonus of 10 rupees to new user accounts",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Modify the backend user registration logic to automatically credit 10 rupees to a user's account balance when they register for the first time during login",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Create a transaction record in the transaction history showing the 10 rupee signup bonus when a new user registers",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Earning App",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

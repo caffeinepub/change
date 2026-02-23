@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, authentication flow, and route definitions for dashboard, tasks, and transaction history pages.",
+  "frontend/src/components/Layout.tsx": "Application layout component with responsive header navigation, mobile menu, authentication controls, and footer with caffeine.ai attribution.",
+  "frontend/src/components/ProfileCard.tsx": "Profile card component displaying user's earnings balance with badge icon, principal ID, and join date in a visually appealing card layout.",
+  "frontend/src/components/TaskCard.tsx": "Task card component showing task details, reward amount, completion status, and action button with task icon integration.",
+  "frontend/src/components/TransactionItem.tsx": "Transaction list item component displaying transaction details including task ID, timestamp, and earned amount with visual indicators.",
+  "frontend/src/pages/Dashboard.tsx": "Dashboard page with hero banner, stats grid, profile card, and quick actions section with auto-refresh for real-time balance updates.",
+  "frontend/src/pages/Tasks.tsx": "Tasks page displaying available tasks list with placeholder message when no tasks are available from backend.",
+  "frontend/src/pages/TransactionHistory.tsx": "Transaction history page showing chronological list of all earning activities with empty state handling.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including profile fetching with auto-registration, transactions retrieval, and task completion mutation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system using vibrant orange, green, and yellow tones for earning theme, avoiding blue and purple.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color palette, Inter font family, enhanced border radius, and glow shadow utilities for vibrant design."
+}

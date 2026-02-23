@@ -1,0 +1,61 @@
+{
+  "kind": "build_request",
+  "title": "Award 10 rupee signup bonus to new users on first login",
+  "projectName": "Win to me",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Modify the backend user registration logic to automatically credit 10 rupees to a user's account balance when they register for the first time during login",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Now user ko fast login me 10 rupe uske account me dena hoga"
+        ]
+      },
+      "acceptanceCriteria": [
+        "New users receive exactly 10 rupees credited to their account upon first registration",
+        "The 10 rupee bonus is only awarded once per user on their initial signup",
+        "Existing users who already have accounts do not receive the bonus",
+        "The bonus amount is added to the user's earnings balance immediately"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Create a transaction record in the transaction history showing the 10 rupee signup bonus when a new user registers",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Now user ko fast login me 10 rupe uske account me dena hoga"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A transaction entry is created with task description indicating it is a signup bonus",
+        "The transaction shows 10 rupees as the earned amount",
+        "The transaction timestamp reflects when the user first registered",
+        "The signup bonus transaction appears in the user's transaction history"
+      ]
+    }
+  ],
+  "constraints": [
+    "Only award the 10 rupee bonus to genuinely new users, not existing users",
+    "Maintain the existing user registration flow and authentication system",
+    "Do not modify the Internet Identity authentication mechanism"
+  ],
+  "nonGoals": [
+    "Modifying the currency system or changing rupees to another currency",
+    "Adding recurring bonuses or daily login rewards",
+    "Implementing referral bonuses or other promotional rewards",
+    "Changing the amount of the signup bonus based on user actions"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
